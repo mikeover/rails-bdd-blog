@@ -5,4 +5,6 @@ This is a very simple Rails blog developed with behavior-driven development with
 === Commands used to create the application
 - To create a new Rails app without the default tests, run 'rails new rails-bdd-blog -T'
 - After installing the rspec-rails gem, run 'rails g rspec:install'
+- To create Guard file after installing guard-rspec and spring-commands-rspec gems, run 'guard init rspec'
+
 
