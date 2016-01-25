@@ -9,10 +9,6 @@ RSpec.feature "Listing Articles" do
                                body: "Body of second article")
   end
 
-  after do
-
-  end
-
   scenario "List all articles" do
     visit "/"
 
